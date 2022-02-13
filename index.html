@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>App de recetas</title>
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+        <input type="text" placeholder="¿Que te gustaría comer?">
+        <button id="search"><svg class="lupa" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg></button></input>
+      </header>
+      
+      <div class="fav-container">
+        <h3>Platillos recomedados</h3>
+          <ul class="fav-meals">
+            <li><img src="https://www.themealdb.com/images/ingredients/Lime.png
+              " alt=""><span>Lima</span></li>
+            <li><img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg" alt=""><span>Carborara</span></li>
+            <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/xqqqtu1511637379.jpg" alt=""><span>postre</span></li>
+          </ul>
+      </div>
+      <div class="meals">
+        <span class="random">
+          <h3>Receta aleatoria</h3>
+        </span>
+        <div class="meal">
+          <div class="meal-header">
+            <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/1549542877.jpg" alt=""><span>Budín de ricota</span>
+          </div>
+          <div class="meal-body">
+            <h4>Veggie</h4>
+            <button>
+              Veggie
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="purple" viewBox="0 0 24 24" stroke="purple">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
